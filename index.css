@@ -1,0 +1,145 @@
+body{
+    margin:0;
+    padding: 0;
+}
+header{
+    background-color:rgb(255, 255, 255);
+}
+nav{
+    background: url(22.png);
+    width: auto 10223px;
+    height: 200px 1px;
+}
+article{
+    background-color:white;
+    width: auto;
+}
+aside{
+    background-color: white;
+}
+footer{
+    background-color: #ffffff;
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header, nav{
+    flex: 1;
+}
+nav{
+    flex: 100;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+article{
+    flex: 3;
+}
+aside{
+    flex: 0;
+}
+h1, h2{
+    margin: 0;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+}
+footer div{
+    flex: 2;
+}
+
+nav ul{
+    display:flex;
+    float:right;
+}
+nav ul li{
+    list-style:none;
+    border:1px solid;
+    box-shadow: black;
+    float:right;
+}
+nav li{
+    margin: 0;
+    position:relative;
+}
+nav a{
+    text-decoration: none;
+    padding: 10px;
+    display:block;
+    color: black;
+    width: 120px;
+    text-align: center;
+}
+nav a:hover{
+    background-color:rgb(22, 118, 22);
+}
+img{
+    float:left;
+}
+#imagen{
+    float:right;
+    flex-direction: row;
+}
+
+#titulo{
+    color:white;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 30; /*para aumentar el grosor de la tipografia*/
+    text-shadow: 5px 10px 10px #333;
+    text-align:center, left;
+    width: 200px;
+}
+
+
+#ti{
+    color:green;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 30; /*para aumentar el grosor de la tipografia*/
+    text-shadow: 5px 10px 10px #333;
+
+}
+
+#box{
+    background-color:#58978A;
+    margin:100px;
+    padding:50px;
+    border-radius: 50px;
+    box-shadow: 5px 10px 10px 0 #744f4f;
+}
+
+#m{
+    flex: 5;
+    background: url(Vector\ 1.png);
+    width: auto;
+    background-color:white;
+    height: auto;
+    margin: 100;
+}
+.dd{
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+#ini{
+    background-color: green;
+}
+
+#parrafo{
+    text-align: right;
+}
+
+.pepe{
+    text-align: left;
+}
+.logologologo{
+    padding: 102px;
+}
